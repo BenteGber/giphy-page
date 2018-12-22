@@ -1,0 +1,28 @@
+div {
+    border:1px dotted grey;
+    padding:100px;
+    
+}
+
+
+.gif-frame {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.gif-frame:nth-of-type(9){
+order:2;
+}
+.gif-frame:nth-of-type(6){
+    border-bottom-right-radius: 5rem;
+}
+.gif-frame:nth-of-type(7){
+    border-bottom-left-radius: 5rem;
+}
+.footer{
+   background-color: darkgray;
+   order:1;
+   flex-grow: .88;
+   border-top-left-radius: 14rem;
+   border-top-right-radius: 14rem;
+
+}
