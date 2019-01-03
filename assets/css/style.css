@@ -24,7 +24,8 @@ padding:.5rem;
 }
 #gif-corral{
     background-image: url(../images/marvel-logo-png-transparent.png);
-    background-size: 15%;
+    background-size: 200px;
+    padding: .5rem;
     background-position: center;
 background-repeat: no-repeat;
 opacity: .9
@@ -32,8 +33,13 @@ opacity: .9
 
 #input-form{
     width:99%;
-}
 
+}
+#input button {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .gif-frame {
     border-radius: 1.5rem;
     margin: .3rem;
@@ -71,4 +77,7 @@ opacity: .9
 .start-title {
     width: 100%;
    
+}
+#start-button {
+    width:fit-content;
 }
