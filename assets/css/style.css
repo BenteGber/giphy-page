@@ -1,28 +1,74 @@
-div {
-    border:1px dotted grey;
-    padding:100px;
+/* https://wireframe.cc/3yibn8 */
+
+
+body{
     
+    background-image: url(../images/twinkle.gif);
+    background-size: inherit;
+   
+}
+#header{
+    color: rgba(253, 247, 255, 1);
+    padding:0;
+    border:0px;
+    background-color: rgba(1,1 ,1, 0);
+ 
+}
+#button-corral{
+background-image: url(../images/twinkle.gif);
+background-size: inherit;
+border-bottom-right-radius:2rem;
+border-bottom-left-radius:2rem;
+flex-flow:wrap;
+padding:.5rem;
+}
+#gif-corral{
+    background-image: url(../images/marvel-logo-png-transparent.png);
+    background-size: 15%;
+    background-position: center;
+background-repeat: no-repeat;
+opacity: .9
 }
 
+#input-form{
+    width:99%;
+}
 
 .gif-frame {
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    margin: .3rem;
+    min-width:fit-content;
+    overflow:hidden;
+    flex-shrink: initial;
 }
-.gif-frame:nth-of-type(9){
-order:2;
-}
-.gif-frame:nth-of-type(6){
-    border-bottom-right-radius: 5rem;
-}
-.gif-frame:nth-of-type(7){
-    border-bottom-left-radius: 5rem;
-}
+
+
 .footer{
-   background-color: darkgray;
+   background-color:inherit;
+   width:99%;
+   flex-grow: 1;
    order:1;
-   flex-grow: .88;
    border-top-left-radius: 14rem;
    border-top-right-radius: 14rem;
+   border-bottom-left-radius: 5rem;
+   border-bottom-right-radius: 5rem;
+   align-self: stretch;
+   padding: 2rem;
 
+}
+.visible{
+    color:white;
+    background-image: url(../images/twinkle.gif);
+    background-size: inherit;
+}
+.btn-character {
+    background-color: black;
+    color: white;
+    border: 1px dotted white;
+    width: fit-content;
+    margin: .75rem;
+}
+.start-title {
+    width: 100%;
+   
 }
